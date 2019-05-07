@@ -1,0 +1,19 @@
+     2	14:06	cd System_Verilog_Rajesh/
+     3	14:14	gedit Problems.txt
+     4	16:44	gedit *.sv
+     6	15:09	vsim
+     7	14:48	source source.cshrc `
+     8	14:48	source source.cshrc
+    10	14:49	which vsim
+    11	14:49	cd /opt/Questa_install/questasim/linux_x86_64/vsim
+    12	14:49	cd /opt/Questa_install/questasim/linux_x86_64/
+    16	14:50	cd vm_src/
+    18	14:50	pwd
+    20	15:01	cd..
+    25	15:01	cd .
+    26	15:01	cd ..
+    28	15:01	cd home/
+    30	15:01	cd student/
+    31	15:01	ls
+    32	15:01	cd Desktop/
+    33	15:01	history > ucdb_commands.txt
