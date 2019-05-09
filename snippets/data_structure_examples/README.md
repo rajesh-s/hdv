@@ -2,7 +2,7 @@
 	Add 100 integer values at sparse locations. Check if the value at index 2 and 45 exists. Print the value of first index along with the index.
 	Print the value at the last index along with index. Check the array size. Delete 10th, 25th, 48th index if they exist. Print the array size again.
 
-2 Write a SV code to create a 2 state array my_array that holds four 12 bit values. Initialize my_array so that my_array[0] = 12'h012, [1] = 12'h345,[2]= 678,[3]  	=9AB Traverse my_array and print out [7:5] of each 12 bit element 1. using for loop 2. using foreach loop
+2. Write a SV code to create a 2 state array my_array that holds four 12 bit values. Initialize my_array so that my_array[0] = 12'h012, [1] = 12'h345,[2]= 678,[3]  	=9AB Traverse my_array and print out [7:5] of each 12 bit element 1. using for loop 2. using foreach loop
 
 3. Declare a 5 by 31 multi dimensional array,my_arr1. Each element should hold a 4 state value. Which of the following assignments are legal and not out of bound
 	my_arr1  [4][30] = 1'b1 , [29][4] = 1'b1 --> does not throw error but is out of bound and returns x, [4] = 32'b1 --
