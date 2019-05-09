@@ -1,0 +1,36 @@
+class test_poly_base;
+virtual task disp();
+$display("This is base");
+endtask
+endclass
+
+class test_poly_derived extends test_poly_base;
+task disp();
+$display("This is derived"); // OVerriding the base property this is displayed and not the earlier bae function.
+endtask 
+endclass
+
+
+module test_poly;
+test_poly_derived d1;
+test_poly_base b1;
+
+initial
+begin
+b1 = new();
+b1.disp();
+d1 = new();
+b1 = d1; // Two different objects
+/*
+Trying to access the child properties from base
+But it is not possible as base will never lose its originality
+Hence we use virtual keyword to allow base to take many forms
+- name of the task in base and derived should have the same name
+- derived should extend the base
+- virtual should be used ONLY in the base class
+
+d1.disp;// Overrides the function present in the base class
+*/
+b1.disp;
+end
+endmodule

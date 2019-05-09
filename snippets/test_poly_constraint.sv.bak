@@ -1,0 +1,19 @@
+class test_poly_shape;
+
+
+endclass
+
+class test_poly_circle extends test_poly_shape;
+int unsigned radius;
+virtual function unsigned area(); // Function overriding by using virtual keyword
+return 
+
+
+
+endclass
+
+class test_poly_triangle extends test_polu_shape;
+int unsigned base,height;
+
+module test_poly_constraint;
+
