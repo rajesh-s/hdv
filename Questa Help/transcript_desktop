@@ -1,0 +1,806 @@
+# //  Questa Sim-64
+# //  Version 10.5a linux_x86_64 Apr  4 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+pwd
+# /home/student/Desktop
+cd System_Verilog_OOPS_Rajesh
+# reading modelsim.ini
+cd mailbox_concept
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:37:43 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:37:43 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# vsim test_bounded_mailbox 
+# Start time: 10:37:47 on Jul 16,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# @0 : Producer : putting 2
+# @1: Consumer: got 1
+# @1 : Producer : put (2) done 2
+# @1 : Producer : putting 3
+# @2: Consumer: got 2
+# @2 : Producer : put (3) done 3
+# @3: Consumer: got 3
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:45:01 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:45:01 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:45:02 on Jul 16,2016, Elapsed time: 0:07:15
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:45:02 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# @0 : Producer : putting 2
+# @1: Consumer: got 1
+# @1 : Producer : put (2) done 2
+# @1 : Producer : putting 3
+# @2: Consumer: got 2
+# @2 : Producer : put (3) done 3
+# @3: Consumer: got 3
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:45:31 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:45:31 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:45:34 on Jul 16,2016, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:45:34 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# @0 : Producer : putting 2
+# @1: Consumer: got 1
+# @1 : Producer : put (2) done 2
+# @1 : Producer : putting 3
+# @2: Consumer: got 2
+# @2 : Producer : put (3) done 3
+# @3: Consumer: got 3
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:52:37 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:52:38 on Jul 16,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:52:39 on Jul 16,2016, Elapsed time: 0:07:05
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:52:39 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# @0 : Producer : putting 2
+# @1: Consumer: got 1
+# @1 : Producer : put (2) done 2
+# @1 : Producer : putting 3
+# @2: Consumer: got 2
+# @2 : Producer : put (3) done 3
+# @3: Consumer: got 3
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:53:21 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:53:21 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:53:22 on Jul 16,2016, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:53:22 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# @0 : Producer : putting 2
+# @1: Consumer: got 1
+# @1 : Producer : put (2) done 2
+# @1 : Producer : putting 3
+# @2: Consumer: got 2
+# @2 : Producer : put (3) done 3
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:53:45 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:53:45 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:53:47 on Jul 16,2016, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:53:47 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# @0 : Producer : putting 2
+# @1: Consumer: got 1
+# @1 : Producer : put (2) done 2
+# @1 : Producer : putting 3
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:56:03 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:56:03 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:56:05 on Jul 16,2016, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:56:05 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# Size of mailbox produce 1
+# @0 : Producer : putting 2
+# Size of mailbox con1 1
+# @1: Consumer: got 1
+# Size of mailbox con2 1
+# Size of mailbox con1 1
+# @1 : Producer : put (2) done 2
+# Size of mailbox produce 1
+# @1 : Producer : putting 3
+# @2: Consumer: got 2
+# Size of mailbox con2 1
+# Size of mailbox con1 1
+# @2 : Producer : put (3) done 3
+# Size of mailbox produce 1
+# Size of mailbox end 1
+# @3: Consumer: got 3
+# Size of mailbox con2 0
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:56:58 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:56:59 on Jul 16,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:57:00 on Jul 16,2016, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:57:00 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# Size of mailbox produce 1
+# @0 : Producer : putting 2
+# Size of mailbox con1 1
+# @0: Consumer: got 1
+# Size of mailbox con2 1
+# Size of mailbox con1 1
+# @0: Consumer: got 2
+# Size of mailbox con2 0
+# Size of mailbox con1 0
+# @0 : Producer : put (2) done 2
+# Size of mailbox produce 0
+# @0 : Producer : putting 3
+# @0 : Producer : put (3) done 3
+# Size of mailbox produce 0
+# Size of mailbox end 0
+# @0: Consumer: got 3
+# Size of mailbox con2 0
+vlog test_bounded_mailbox.sv
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:58:45 on Jul 16,2016
+# vlog -reportprogress 300 test_bounded_mailbox.sv 
+# -- Compiling module test_bounded_mailbox
+# 
+# Top level modules:
+# 	test_bounded_mailbox
+# End time: 10:58:45 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test_bounded_mailbox
+# End time: 10:58:46 on Jul 16,2016, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 0
+# vsim test_bounded_mailbox 
+# Start time: 10:58:46 on Jul 16,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bounded_mailbox(fast)
+run
+# @0 : Producer : putting 1
+# @0 : Producer : put (1) done 1
+# Size of mailbox produce 1
+# @0 : Producer : putting 2
+quit -sim
+# End time: 11:10:08 on Jul 16,2016, Elapsed time: 0:11:22
+# Errors: 0, Warnings: 0
+cd ..
+# reading modelsim.ini
+cd ..
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+cd Proejct
+# couldn't change working directory to "Proejct": no such file or directory
+cd Project
+# reading modelsim.ini
+do preprocessor_alu.do
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 11:10:23 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 11:10:23 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 11:10:23 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 11:10:35 on Jul 16,2016, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+do preprocessor_alu.do
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 11:10:43 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 11:10:43 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 11:10:43 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+run
+history
+#      1  pwd
+#      2  cd System_Verilog_OOPS_Rajesh
+#      3  cd mailbox_concept
+#      4  vlog test_bounded_mailbox.sv
+#      5  vsim test_bounded_mailbox
+#      6  run
+#      7  vlog test_bounded_mailbox.sv
+#      8  vsim test_bounded_mailbox
+#      9  run
+#     10  vlog test_bounded_mailbox.sv
+#     11  vsim test_bounded_mailbox
+#     12  run
+#     13  vlog test_bounded_mailbox.sv
+#     14  vsim test_bounded_mailbox
+#     15  run
+#     16  vlog test_bounded_mailbox.sv
+#     17  vsim test_bounded_mailbox
+#     18  run
+#     19  vlog test_bounded_mailbox.sv
+#     20  vsim test_bounded_mailbox
+#     21  run
+#     22  vlog test_bounded_mailbox.sv
+#     23  vsim test_bounded_mailbox
+#     24  run
+#     25  vlog test_bounded_mailbox.sv
+#     26  vsim test_bounded_mailbox
+#     27  run
+#     28  vlog test_bounded_mailbox.sv
+#     29  vsim test_bounded_mailbox
+#     30  run
+#     31  quit -sim
+#     32  cd ..
+#     33  cd Proejct
+#     34  cd Project
+#     35  do preprocessor_alu.do
+#     36  quit -sim
+#     37  do preprocessor_alu.do
+#     38  run
+#     39  history
+quit -sim
+# End time: 11:26:25 on Jul 16,2016, Elapsed time: 0:15:42
+# Errors: 0, Warnings: 1
+do preprocessor_alu.do
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 11:26:30 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 11:26:30 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 11:26:30 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 11:28:13 on Jul 16,2016, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 1
+pwd
+# /home/student/Desktop/Project_Rajesh_S
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+pwd
+# /home/student/Desktop/Project_Rajesh_S/do_file_reference_tests
+ls
+# addition_out.do
+# addition_out.do~
+# mixed_ops.do
+# mixed_ops.do~
+# shift_out.do
+# shift_out.do~
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 11:37:25 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 11:37:25 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 11:37:25 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 11:37:44 on Jul 16,2016, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+do mixed_ops.do
+# Cannot open macro file: mixed_ops.do
+ls
+# ALU.sv
+# ALU.sv~
+# ARITH_ALU.sv
+# ARITH_ALU.sv~
+# do_file_reference_tests
+# DUT.sv
+# DUT.sv~
+# EXECUTE_PREPROCESSOR.sv
+# EXECUTE_PREPROCESSOR.sv~
+# modelsim.ini
+# README
+# README~
+# SHIFT_ALU.sv
+# SHIFT_ALU.sv~
+# Specification_document.pdf
+# Verification of DUT waveforms
+# vsim.wlf
+# work
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 11:41:54 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 11:41:54 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 11:41:54 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+run
+run
+run
+run
+quit -sim
+# End time: 11:44:18 on Jul 16,2016, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 1
+do mixed_ops.do
+# Cannot open macro file: mixed_ops.do
+pwd
+# /home/student/Desktop/Project_Rajesh_S
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 11:56:27 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 11:56:27 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 11:56:27 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 11:56:39 on Jul 16,2016, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:34:49 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 12:34:49 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 12:34:49 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 12:35:02 on Jul 16,2016, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:36:26 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 12:36:27 on Jul 16,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 12:36:27 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 12:36:58 on Jul 16,2016, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:44:31 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 12:44:31 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 12:44:31 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 12:44:40 on Jul 16,2016, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do addition_out.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:44:48 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 12:44:48 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 12:44:48 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 12:44:57 on Jul 16,2016, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do addition_out.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:47:17 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 12:47:17 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 12:47:17 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 12:47:28 on Jul 16,2016, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 1
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:47:31 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 12:47:32 on Jul 16,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 12:47:32 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 12:47:41 on Jul 16,2016, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+cd do_file_reference_tests
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+do mixed_ops.do
+# reading modelsim.ini
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:48:37 on Jul 16,2016
+# vlog -reportprogress 300 ALU.sv ARITH_ALU.sv DUT.sv EXECUTE_PREPROCESSOR.sv SHIFT_ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ARITH_ALU
+# -- Compiling module DUT
+# -- Compiling module EXECUTE_PREPROCESSOR
+# -- Compiling module SHIFT_ALU
+# 
+# Top level modules:
+# 	DUT
+# End time: 12:48:37 on Jul 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt DUT 
+# Start time: 12:48:37 on Jul 16,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.DUT
+# Loading sv_std.std
+# Loading work.DUT
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.EXECUTE_PREPROCESSOR
+# Loading work.EXECUTE_PREPROCESSOR
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ALU
+# Loading work.ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.ARITH_ALU
+# Loading work.ARITH_ALU
+# Refreshing /home/student/Desktop/Project_Rajesh_S/work.SHIFT_ALU
+# Loading work.SHIFT_ALU
+quit -sim
+# End time: 12:48:47 on Jul 16,2016, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1

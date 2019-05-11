@@ -1,0 +1,2906 @@
+# //  Questa Sim-64
+# //  Version 10.5a linux_x86_64 Apr  4 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:07:50 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# ** Error: (vlog-13036) onecounter.v(6): near "++": Operator only allowed in SystemVerilog.
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:07:50 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim onecounter.v
+# OpenFile onecounter.v
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:08:20 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:08:20 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim onecounter
+# vsim onecounter 
+# Start time: 09:08:25 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): (vopt-7063) onecounter.v(13): Failed to find 'display' in hierarchical name '/display'.
+# Optimization failed
+# Error loading design
+# End time: 09:08:25 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -novopt onecounter
+# vsim -novopt onecounter 
+# Start time: 09:08:38 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+# ** Error: (vsim-3043) onecounter.v(13): Unresolved reference to 'display'.
+#    Time: 0 ns  Iteration: 0  Instance: /onecounter File: onecounter.v
+# Error loading design
+# End time: 09:08:38 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:08:57 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:08:57 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# vsim -novopt onecounter 
+# Start time: 09:09:08 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 10111
+run
+# Ones in 10001 is xxx
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:10:36 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:10:36 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# End time: 09:10:39 on Jun 24,2016, Elapsed time: 0:01:31
+# Errors: 3, Warnings: 2
+# vsim -novopt onecounter 
+# Start time: 09:10:39 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b10111
+run
+# Ones in 10111 is xxx
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:11:27 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:11:27 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# End time: 09:11:31 on Jun 24,2016, Elapsed time: 0:00:52
+# Errors: 3, Warnings: 2
+# vsim -novopt onecounter 
+# Start time: 09:11:31 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b10111
+run
+# Ones in 10111 is xxx
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:12:00 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:12:00 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# End time: 09:12:02 on Jun 24,2016, Elapsed time: 0:00:31
+# Errors: 3, Warnings: 2
+# vsim -novopt onecounter 
+# Start time: 09:12:02 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b10111
+run
+# Ones in 10111 is xxx
+quit -sim
+# End time: 09:13:24 on Jun 24,2016, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:13:28 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:13:28 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# vsim -novopt onecounter 
+# Start time: 09:13:31 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+run
+# Ones in zzzzz is 000
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:13:46 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:13:46 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# End time: 09:13:48 on Jun 24,2016, Elapsed time: 0:00:17
+# Errors: 3, Warnings: 2
+# vsim -novopt onecounter 
+# Start time: 09:13:48 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b10111
+run
+# Ones in 10111 is 100
+force in 5'b00001
+run
+quit -sim
+# End time: 09:14:20 on Jun 24,2016, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:14:38 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# ** Error: (vlog-13069) onecounter.v(4): near "always": syntax error, unexpected always.
+# ** Error: onecounter.v(5): (vlog-13205) Syntax error found in the scope following 'i'. Is there a missing '::'?
+# -- Compiling module prien8_3
+# ** Error: (vlog-13069) onecounter.v(5): near "5": syntax error, unexpected INTEGER NUMBER, expecting class.
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:14:38 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# vsim -novopt onecounter 
+# Start time: 09:14:42 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.onecounter
+force in 5'b00001
+run
+# Ones in 00001 is 001
+force in 10111
+run
+quit -sim
+# End time: 09:15:05 on Jun 24,2016, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:15:29 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:15:29 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# vsim -novopt onecounter 
+# Start time: 09:15:33 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b00001
+run
+# Ones in 00001 is xxx
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:16:32 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:16:32 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# End time: 09:16:45 on Jun 24,2016, Elapsed time: 0:01:12
+# Errors: 3, Warnings: 2
+# vsim -novopt onecounter 
+# Start time: 09:16:45 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b00001
+run
+# Ones in 00001 is 000
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:17:41 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:17:41 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# End time: 09:17:47 on Jun 24,2016, Elapsed time: 0:01:02
+# Errors: 3, Warnings: 2
+# vsim -novopt onecounter 
+# Start time: 09:17:47 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b00001
+run
+# Ones in 00001 is xxx
+force in 5'b00111
+run
+quit -sim
+# End time: 09:18:26 on Jun 24,2016, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:18:31 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:18:32 on Jun 24,2016, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt onecounter
+# vsim -novopt onecounter 
+# Start time: 09:18:35 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b00111
+run
+# Ones in 00111 is 011
+quit -sim
+# End time: 09:26:53 on Jun 24,2016, Elapsed time: 0:08:18
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:26:57 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:26:57 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt clock_gen
+# vsim -novopt clock_gen 
+# Start time: 09:27:21 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.clock_gen
+# Loading work.clock_gen
+run
+vsim -novopt work.clock_gen
+# End time: 09:27:45 on Jun 24,2016, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim -novopt work.clock_gen 
+# Start time: 09:27:45 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.clock_gen
+quit -sim
+# End time: 09:28:13 on Jun 24,2016, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1
+quit -sim
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:28:24 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module clock_gen
+# ** Error: clock_gen.v(3): (vlog-2730) Undefined variable: 'clk'.
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:28:24 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt clock_gen
+# vsim -novopt clock_gen 
+# Start time: 09:28:34 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.clock_gen
+run
+vsim -novopt work.clock_gen
+# End time: 09:28:55 on Jun 24,2016, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# vsim -novopt work.clock_gen 
+# Start time: 09:28:55 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.clock_gen
+quit -sim
+# End time: 09:30:12 on Jun 24,2016, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:30:15 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:30:15 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt work.clock_gen
+# vsim -novopt work.clock_gen 
+# Start time: 09:30:17 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.clock_gen
+# Loading work.clock_gen
+run
+vsim -novopt work.clock_gen
+# End time: 09:30:40 on Jun 24,2016, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+# vsim -novopt work.clock_gen 
+# Start time: 09:30:40 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.clock_gen
+quit -sim
+# End time: 09:30:50 on Jun 24,2016, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:31:25 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:31:25 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim clock_gen
+# vsim clock_gen 
+# Start time: 09:31:36 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.clock_gen(fast)
+run
+vsim work.clock_gen
+# End time: 09:31:55 on Jun 24,2016, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim work.clock_gen 
+# Start time: 09:31:55 on Jun 24,2016
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.clock_gen(fast)
+vsim work.clock_gen -novopt
+# End time: 09:32:08 on Jun 24,2016, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# vsim work.clock_gen -novopt 
+# Start time: 09:32:08 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.clock_gen
+# Loading work.clock_gen
+quit -sim
+# End time: 09:34:29 on Jun 24,2016, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 1
+quit -sim
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:36:30 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v casex.v casex1.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v verilog_guidelines.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module casex1
+# ** Warning: casex1.v(1): (vlog-2275) 'casex1' already exists and will be overwritten.
+# -- Compiling module casex1
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# ** Error: (vlog-13069) verilog_guidelines.v(1): near ":": syntax error, unexpected ':'.
+# ** Error: verilog_guidelines.v(1): (vlog-13205) Syntax error found in the scope following 'Guidelines'. Is there a missing '::'?
+# End time: 09:36:30 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim clock_gen
+# vsim clock_gen 
+# Start time: 09:36:34 on Jun 24,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.clock_gen(fast)
+vsim work.clock_gen -novopt
+# End time: 09:36:55 on Jun 24,2016, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim work.clock_gen -novopt 
+# Start time: 09:36:55 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.clock_gen
+# Loading work.clock_gen
+run
+run
+run
+quit -sim
+# End time: 09:37:57 on Jun 24,2016, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:41:10 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v casex.v casex1.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module casex1
+# ** Warning: casex1.v(1): (vlog-2275) 'casex1' already exists and will be overwritten.
+# -- Compiling module casex1
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# 
+# Top level modules:
+# 	alu_random_tb
+# 	alu_tb
+# 	and_sensitivity
+# 	bcd_7segbm
+# 	bcd_7segbmcase_tb
+# 	casex1
+# 	clock_gen
+# 	decode3_8bm
+# 	decode3_8bmcase
+# 	decoder_nbit
+# 	divider
+# 	encode4_2bm
+# 	encode4_2bmcase
+# 	example
+# 	mux2_1BM
+# 	mux4_1_tb
+# 	nbit_decode
+# 	onecounter
+# 	prien8_3_random_tb
+# 	prien8_3_tb
+# 	race_condition
+# 	race_condition_delay
+# 	test
+# 	test1
+# 	test2
+# 	test_fork
+# End time: 09:41:11 on Jun 24,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+vsim -novopt clock_gen
+# vsim -novopt clock_gen 
+# Start time: 09:41:51 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.clock_gen
+# Loading work.clock_gen
+run
+quit -sim
+# End time: 09:43:55 on Jun 24,2016, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 1
+cd sequential_elements
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+ls
+# async_dff.v
+# async_dff.v.bak
+# counter_dff.v
+# dff_tb.v
+# d_ff.v
+# d_latch.v
+# gated_sr_latch.v
+# latch.v
+# nbit_counter.v
+# rising_dff.v
+# sr_latch.v
+# struct_counter_tb.v
+# struct_counter_tb.v~
+# struct_counter_tb.v.bak
+# struct_counter.v
+# struct_counter.v.bak
+# sync_dff.v
+# sync_dff.v.bak
+# transcript
+# vsim.wlf
+# work
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:44:05 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v gated_sr_latch.v latch.v nbit_counter.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	latch
+# 	nbit_counter
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 09:44:05 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt struct_counter_tb
+# vsim -novopt struct_counter_tb 
+# Start time: 09:44:15 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.struct_counter_tb
+# Loading work.struct_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.struct_counter
+# Loading work.struct_counter
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.async_dff
+# Loading work.async_dff
+run
+#                    0 rst = 1   q =  x
+#                    5 rst = 0   q =  0
+#                   10 rst = 1   q =  0
+#                   15 rst = 1   q =  1
+#                   25 rst = 1   q =  2
+#                   35 rst = 1   q =  3
+#                   45 rst = 1   q =  4
+#                   55 rst = 1   q =  5
+#                   65 rst = 1   q =  6
+#                   70 rst = 0   q =  0
+vsim -novopt work.struct_counter_tb
+# End time: 09:44:37 on Jun 24,2016, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim -novopt work.struct_counter_tb 
+# Start time: 09:44:37 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.struct_counter_tb
+# Loading work.struct_counter
+# Loading work.async_dff
+quit -sim
+# End time: 09:44:51 on Jun 24,2016, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+pwd
+# /home/student/Desktop/Day_6_Rajesh/sequential_elements
+cd ..
+# reading modelsim.ini
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:45:20 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v casex.v casex1.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module casex1
+# ** Warning: casex1.v(1): (vlog-2275) 'casex1' already exists and will be overwritten.
+# -- Compiling module casex1
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# 
+# Top level modules:
+# 	alu_random_tb
+# 	alu_tb
+# 	and_sensitivity
+# 	bcd_7segbm
+# 	bcd_7segbmcase_tb
+# 	casex1
+# 	clock_gen
+# 	decode3_8bm
+# 	decode3_8bmcase
+# 	decoder_nbit
+# 	divider
+# 	encode4_2bm
+# 	encode4_2bmcase
+# 	example
+# 	mux2_1BM
+# 	mux4_1_tb
+# 	nbit_decode
+# 	onecounter
+# 	prien8_3_random_tb
+# 	prien8_3_tb
+# 	race_condition
+# 	race_condition_delay
+# 	test
+# 	test1
+# 	test2
+# 	test_fork
+# End time: 09:45:20 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim -novopt clock_gen
+# vsim -novopt clock_gen 
+# Start time: 09:47:57 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.clock_gen
+# Loading work.clock_gen
+add wave *
+run
+quit -sim
+# End time: 09:48:45 on Jun 24,2016, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 09:57:53 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v casex.v casex1.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v test.v test1.v test2.v test_fork.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module casex1
+# ** Warning: casex1.v(1): (vlog-2275) 'casex1' already exists and will be overwritten.
+# -- Compiling module casex1
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# 
+# Top level modules:
+# 	alu_random_tb
+# 	alu_tb
+# 	and_sensitivity
+# 	bcd_7segbm
+# 	bcd_7segbmcase_tb
+# 	casex1
+# 	clock_gen
+# 	decode3_8bm
+# 	decode3_8bmcase
+# 	decoder_nbit
+# 	divider
+# 	encode4_2bm
+# 	encode4_2bmcase
+# 	example
+# 	mux2_1BM
+# 	mux4_1_tb
+# 	nbit_decode
+# 	onecounter
+# 	prien8_3_random_tb
+# 	prien8_3_tb
+# 	race_condition
+# 	race_condition_delay
+# 	test
+# 	test1
+# 	test2
+# 	test_fork
+# End time: 09:57:53 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim -novopt clock_gen
+# vsim -novopt clock_gen 
+# Start time: 09:57:55 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.clock_gen
+# Loading work.clock_gen
+add wave *
+run
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 10:19:06 on Jun 24,2016, Elapsed time: 0:21:11
+# Errors: 0, Warnings: 2
+pwd
+# /home/student/Desktop/Day_6_Rajesh
+cd sw
+# couldn't change working directory to "sw": no such file or directory
+cd sequential_elements
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+ls
+# async_dff.v
+# async_dff.v.bak
+# counter_dff.v
+# dff_tb.v
+# d_ff.v
+# d_latch.v
+# ff_count_tb.v
+# ff_count.v
+# gated_sr_latch.v
+# latch.v
+# nbit_counter.v
+# rising_dff.v
+# sr_latch.v
+# struct_counter_tb.v
+# struct_counter_tb.v~
+# struct_counter_tb.v.bak
+# struct_counter.v
+# struct_counter.v.bak
+# sync_dff.v
+# sync_dff.v.bak
+# transcript
+# vsim.wlf
+# work
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:25:11 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# ** Error: (vlog-13069) ff_count.v(17): near "endmodule": syntax error, unexpected endmodule.
+# ** Error (suppressible): ff_count_tb.v(3): (vlog-2388) 'clk' already declared in this scope (ff_count).
+# ** Error (suppressible): ff_count_tb.v(3): (vlog-2388) 'rst' already declared in this scope (ff_count).
+# ** Error (suppressible): ff_count_tb.v(3): (vlog-2388) 'e' already declared in this scope (ff_count).
+# ** Error: ff_count_tb.v(3): Declarations not allowed in unnamed block.
+# ** Error: ff_count_tb.v(4): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ff_count_tb.v(6): Checker 'ff_count' not found.  Instantiation 'd1' must be of a visible checker.
+# ** Error: (vlog-13069) ff_count_tb.v(7): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) ff_count_tb.v(15): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: gated_sr_latch.v(7): (vlog-2730) Undefined variable: 'q'.
+# ** Error: gated_sr_latch.v(7): (vlog-2730) Undefined variable: 'qbar'.
+# ** Error: gated_sr_latch.v(7): (vlog-2730) Undefined variable: 'w1'.
+# ** Error: gated_sr_latch.v(7): (vlog-2730) Undefined variable: 'w2'.
+# ** Error: gated_sr_latch.v(7): Checker 'sr_latch' not found.  Instantiation 's1' must be of a visible checker.
+# ** Error: (vlog-13069) gated_sr_latch.v(9): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: ff_count_tb.v(6): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: gated_sr_latch.v(7): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# End time: 10:25:11 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:27:09 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# ** Error: (vlog-13069) ff_count_tb.v(12): near "=": syntax error, unexpected '='.
+# ** Error: ff_count_tb.v(12): (vlog-13205) Syntax error found in the scope following 'rst'. Is there a missing '::'?
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# End time: 10:27:09 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:27:45 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	latch
+# 	nbit_counter
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 10:27:45 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim ff_count_tb
+# vsim ff_count_tb 
+# Start time: 10:27:52 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.ff_count_tb(fast)
+quit -sim
+# End time: 10:27:55 on Jun 24,2016, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+vsim -novopt ff_count_tb
+# vsim -novopt ff_count_tb 
+# Start time: 10:28:02 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ff_count_tb
+# Loading work.ff_count_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ff_count
+# Loading work.ff_count
+add wave *
+run
+quit -sim
+# End time: 10:29:20 on Jun 24,2016, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 1
+vsim -novopt ff_count
+# vsim -novopt ff_count 
+# Start time: 10:30:04 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.ff_count
+add wave *
+run
+force e 1
+force -freeze sim:/ff_count/clk 1 0, 0 {50 ns} -r 100
+force rst 1 
+run
+
+run
+quit -sim
+# End time: 10:30:44 on Jun 24,2016, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
+vsim -novopt ff_count
+# vsim -novopt ff_count 
+# Start time: 10:30:55 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.ff_count
+quit -sim
+# End time: 10:30:59 on Jun 24,2016, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+vsim -novopt ff_count
+# vsim -novopt ff_count 
+# Start time: 10:35:43 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.ff_count
+quit -sim
+# End time: 10:35:48 on Jun 24,2016, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1
+vsim -novopt ff_count_tb
+# vsim -novopt ff_count_tb 
+# Start time: 10:51:53 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.ff_count_tb
+# Loading work.ff_count
+add wave *
+run
+quit -sim
+# End time: 10:58:57 on Jun 24,2016, Elapsed time: 0:07:04
+# Errors: 0, Warnings: 1
+pwd
+# /home/student/Desktop/Day_6_Rajesh/sequential_elements
+cd ..
+# reading modelsim.ini
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:59:03 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v casex.v casex1.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v swap.v test.v test1.v test2.v test_fork.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module casex1
+# ** Warning: casex1.v(1): (vlog-2275) 'casex1' already exists and will be overwritten.
+# -- Compiling module casex1
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module swap
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# 
+# Top level modules:
+# 	alu_random_tb
+# 	alu_tb
+# 	and_sensitivity
+# 	bcd_7segbm
+# 	bcd_7segbmcase_tb
+# 	casex1
+# 	clock_gen
+# 	decode3_8bm
+# 	decode3_8bmcase
+# 	decoder_nbit
+# 	divider
+# 	encode4_2bm
+# 	encode4_2bmcase
+# 	example
+# 	mux2_1BM
+# 	mux4_1_tb
+# 	nbit_decode
+# 	onecounter
+# 	prien8_3_random_tb
+# 	prien8_3_tb
+# 	race_condition
+# 	race_condition_delay
+# 	swap
+# 	test
+# 	test1
+# 	test2
+# 	test_fork
+# End time: 10:59:03 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim swap
+# vsim swap 
+# Start time: 10:59:10 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.swap(fast)
+add wave *
+# (vish-4014) No objects found matching '*'.
+run
+# a =          20  b =          50
+quit -sim
+# End time: 10:59:41 on Jun 24,2016, Elapsed time: 0:00:31
+# Errors: 1, Warnings: 0
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 10:59:45 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v casex.v casex1.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v swap.v test.v test1.v test2.v test_fork.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module casex1
+# ** Warning: casex1.v(1): (vlog-2275) 'casex1' already exists and will be overwritten.
+# -- Compiling module casex1
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module swap
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# 
+# Top level modules:
+# 	alu_random_tb
+# 	alu_tb
+# 	and_sensitivity
+# 	bcd_7segbm
+# 	bcd_7segbmcase_tb
+# 	casex1
+# 	clock_gen
+# 	decode3_8bm
+# 	decode3_8bmcase
+# 	decoder_nbit
+# 	divider
+# 	encode4_2bm
+# 	encode4_2bmcase
+# 	example
+# 	mux2_1BM
+# 	mux4_1_tb
+# 	nbit_decode
+# 	onecounter
+# 	prien8_3_random_tb
+# 	prien8_3_tb
+# 	race_condition
+# 	race_condition_delay
+# 	swap
+# 	test
+# 	test1
+# 	test2
+# 	test_fork
+# End time: 10:59:45 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim swap
+# vsim swap 
+# Start time: 10:59:56 on Jun 24,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.swap(fast)
+run
+# a =          38  b =          38
+quit -sim
+# End time: 11:11:44 on Jun 24,2016, Elapsed time: 0:11:48
+# Errors: 0, Warnings: 0
+pwd
+# /home/student/Desktop/Day_6_Rajesh
+cd sequential_elements
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:00:12 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# ** Error: ring_counter.v(9): (vlog-2110) Illegal reference to net "in".
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# End time: 12:00:12 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:02:32 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# ** Error: (vlog-13069) ring_counter.v(3): near "=": syntax error, unexpected '='.
+# ** Error: ring_counter.v(3): (vlog-13205) Syntax error found in the scope following 'temp'. Is there a missing '::'?
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# End time: 12:02:33 on Jun 24,2016, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:04:25 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# ** Error: ring_counter.v(11): Illegal part-select expression for variable "temp"
+# ** Warning: ring_counter.v(11): (vlog-2697) MSB of part-select into 'temp' is out of bounds.
+# ** Warning: ring_counter.v(11): (vlog-2697) LSB of part-select into 'temp' is out of bounds.
+# ** Error (suppressible): (vlog-13198) ring_counter.v(11): Illegal bit-select into scalar variable "temp".
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# End time: 12:04:25 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:05:17 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 12:05:17 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt ring_counter_tb
+# vsim -novopt ring_counter_tb 
+# Start time: 12:05:29 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter
+# Loading work.ring_counter
+# ** Warning: (vsim-3015) ring_counter_tb.v(6): [PCDPC] - Port size (4) does not match connection size (1) for port 'in'. The port definition is at: ring_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /ring_counter_tb/d1 File: ring_counter.v
+add wave *
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 1   q = 0000
+#                   10 rst = 0   q = 0000
+#                   15 rst = 0   q = xxxx
+#                   25 rst = 0   q = 0000
+#                   35 rst = 0   q = xxxx
+#                   45 rst = 0   q = 0000
+#                   55 rst = 0   q = xxxx
+#                   65 rst = 0   q = 0000
+#                   70 rst = 1   q = 0000
+quit -sim
+# End time: 12:12:50 on Jun 24,2016, Elapsed time: 0:07:21
+# Errors: 0, Warnings: 2
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:12:52 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 12:12:52 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt ring_counter_tb
+# vsim -novopt ring_counter_tb 
+# Start time: 12:12:54 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter
+# Loading work.ring_counter
+# ** Warning: (vsim-3015) ring_counter_tb.v(6): [PCDPC] - Port size (4) does not match connection size (1) for port 'in'. The port definition is at: ring_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /ring_counter_tb/d1 File: ring_counter.v
+add wave *
+run
+#                    0 rst = 1   q = xxxx
+#                    5 rst = 0   q = 0000
+#                   10 rst = 1   q = 0000
+#                   15 rst = 1   q = xzzz
+#                   25 rst = 1   q = 0000
+#                   35 rst = 1   q = zxzz
+#                   45 rst = 1   q = 0000
+#                   55 rst = 1   q = zzxz
+#                   65 rst = 1   q = 0000
+#                   70 rst = 0   q = 0000
+quit -sim
+# End time: 12:14:01 on Jun 24,2016, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 2
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 12:14:03 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 12:14:03 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt ring_counter_tb
+# vsim -novopt ring_counter_tb 
+# Start time: 12:14:05 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter
+# Loading work.ring_counter
+add wave *
+run
+#                    0 rst = 1   q = xxxx
+#                    5 rst = 0   q = 0000
+#                   10 rst = 1   q = 0000
+#                   15 rst = 1   q = xxxx
+#                   25 rst = 1   q = 0000
+#                   35 rst = 1   q = xxxx
+#                   45 rst = 1   q = 0000
+#                   55 rst = 1   q = xxxx
+#                   65 rst = 1   q = 0000
+#                   70 rst = 0   q = 0000
+# Can't move the Now cursor.
+quit -sim
+# End time: 12:15:01 on Jun 24,2016, Elapsed time: 0:00:56
+# Errors: 1, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:14:26 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# ** Error: gray_counter.v(8): (vlog-2730) Undefined variable: 'bin'.
+# ** Error: (vlog-13069) gray_counter.v(16): near "for": syntax error, unexpected for, expecting ';'.
+# ** Error: gray_counter.v(16): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) gray_counter.v(16): near ")": syntax error, unexpected ')', expecting ';'.
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# ** Error: (vlog-13069) sync_dff.v(11): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:14:26 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:15:31 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# ** Error: gray_counter.v(9): (vlog-2730) Undefined variable: 'bin'.
+# ** Error: (vlog-13069) gray_counter.v(17): near "for": syntax error, unexpected for, expecting ';'.
+# ** Error: (vlog-13069) gray_counter.v(17): near ")": syntax error, unexpected ')', expecting ';'.
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# ** Error: (vlog-13069) sync_dff.v(11): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:15:31 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:15:58 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# ** Error: gray_counter.v(9): (vlog-2730) Undefined variable: 'bin'.
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# ** Error: (vlog-13069) sync_dff.v(11): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:15:58 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:16:15 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# ** Error: (vlog-13069) sync_dff.v(11): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:16:15 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:16:24 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# ** Error: (vlog-13069) sync_dff.v(11): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:16:24 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim -novopt gray_counter
+# vsim -novopt gray_counter 
+# Start time: 13:16:33 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Error: (vsim-3170) Could not find 'gray_counter'.
+#         Searched libraries:
+#             /home/student/Desktop/Day_6_Rajesh/sequential_elements/work
+# Error loading design
+# End time: 13:16:33 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+ls
+# async_dff.v
+# async_dff.v.bak
+# counter_dff.v
+# dff_tb.v
+# d_ff.v
+# d_latch.v
+# ff_count_tb.v
+# ff_count_tb.v~
+# ff_count.v
+# ff_count.v~
+# gated_sr_latch.v
+# gray_counter.v
+# gray_counter.v~
+# latch.v
+# nbit_counter.v
+# ring_counter_tb.v
+# ring_counter_tb.v~
+# ring_counter.v
+# ring_counter.v~
+# rising_dff.v
+# sr_latch.v
+# struct_counter_tb.v
+# struct_counter_tb.v~
+# struct_counter_tb.v.bak
+# struct_counter.v
+# struct_counter.v.bak
+# sync_dff.v
+# sync_dff.v.bak
+# transcript
+# vsim.wlf
+# work
+vsim gray_counter
+# vsim gray_counter 
+# Start time: 13:17:20 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit gray_counter.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# End time: 13:17:20 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:17:25 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# ** Error: (vlog-13069) sync_dff.v(11): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:17:25 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vsim gray_counter
+# vsim gray_counter 
+# Start time: 13:17:30 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit gray_counter.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# End time: 13:17:30 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim gray_counter
+# vsim gray_counter 
+# Start time: 13:17:51 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit gray_counter.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# End time: 13:17:52 on Jun 24,2016, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:17:55 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# ** Error: gray_counter.v(8): (vlog-2110) Illegal reference to net "q".
+# ** Error: gray_counter.v(11): (vlog-2110) Illegal reference to net "q".
+# ** Error: gray_counter.v(19): (vlog-2110) Illegal reference to net "q".
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# End time: 13:17:55 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:18:09 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	gray_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 13:18:09 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim gray_counter
+# vsim gray_counter 
+# Start time: 13:18:15 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: gray_counter.v(16): (vopt-2576) [BSOB] - Bit-select into 'g' is out of bounds.
+# ** Warning: gray_counter.v(16): (vopt-2576) [BSOB] - Bit-select into 'b' is out of bounds.
+# Loading work.gray_counter(fast)
+quit -sim
+# End time: 13:18:20 on Jun 24,2016, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
+vsim -novopt gray_counter
+# vsim -novopt gray_counter 
+# Start time: 13:18:27 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.gray_counter
+# Loading work.gray_counter
+run
+add wave *
+force -freeze sim:/gray_counter/clk 1 0, 0 {50 ns} -r 100
+force rst 1
+run
+run
+run
+run
+run
+force rst 0
+run
+force rst 1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 13:21:42 on Jun 24,2016, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 1
+cd ..
+# reading modelsim.ini
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:22:44 on Jun 24,2016
+# vlog -reportprogress 300 alu.v alu_random_tb.v alu_tb.v and_sensitivity.v bcd_7segbm.v bcd_7segbmcase.v bcd_7segbmcase_tb.v casex.v casex1.v clock_gen.v decode3_8bm.v decode3_8bmcase.v decoder_nbit.v divider.v encode4_2bm.v encode4_2bmcase.v example.v mux2_1BM.v mux4_1.v mux4_1_tb.v nbit_decode.v onecounter.v prien8_3.v prien8_3_random_tb.v prien8_3_tb.v race_condition.v race_condition_delay.v swap.v test.v test1.v test2.v test_fork.v 
+# -- Compiling module alu
+# -- Compiling module alu_random_tb
+# -- Compiling module alu_tb
+# ** Warning: alu_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module and_sensitivity
+# -- Compiling module bcd_7segbm
+# -- Compiling module bcd_7segbmcase
+# -- Compiling module bcd_7segbmcase_tb
+# -- Compiling module casex1
+# ** Warning: casex1.v(1): (vlog-2275) 'casex1' already exists and will be overwritten.
+# -- Compiling module casex1
+# -- Compiling module clock_gen
+# -- Compiling module decode3_8bm
+# -- Compiling module decode3_8bmcase
+# -- Compiling module decoder_nbit
+# -- Compiling module divider
+# -- Compiling module encode4_2bm
+# -- Compiling module encode4_2bmcase
+# -- Compiling module example
+# -- Compiling module mux2_1BM
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# -- Compiling module nbit_decode
+# -- Compiling module onecounter
+# -- Compiling module prien8_3
+# -- Compiling module prien8_3_random_tb
+# -- Compiling module prien8_3_tb
+# -- Compiling module race_condition
+# -- Compiling module race_condition_delay
+# -- Compiling module swap
+# -- Compiling module test
+# -- Compiling module test1
+# -- Compiling module test2
+# -- Compiling module test_fork
+# 
+# Top level modules:
+# 	alu_random_tb
+# 	alu_tb
+# 	and_sensitivity
+# 	bcd_7segbm
+# 	bcd_7segbmcase_tb
+# 	casex1
+# 	clock_gen
+# 	decode3_8bm
+# 	decode3_8bmcase
+# 	decoder_nbit
+# 	divider
+# 	encode4_2bm
+# 	encode4_2bmcase
+# 	example
+# 	mux2_1BM
+# 	mux4_1_tb
+# 	nbit_decode
+# 	onecounter
+# 	prien8_3_random_tb
+# 	prien8_3_tb
+# 	race_condition
+# 	race_condition_delay
+# 	swap
+# 	test
+# 	test1
+# 	test2
+# 	test_fork
+# End time: 13:22:44 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim -novopt onecounter
+# vsim -novopt onecounter 
+# Start time: 13:23:03 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/work.onecounter
+# Loading work.onecounter
+force in 5'b10111
+run
+# Ones in 10111 is 100
+quit -sim
+# End time: 13:47:18 on Jun 24,2016, Elapsed time: 0:24:15
+# Errors: 0, Warnings: 1
+pwd
+# /home/student/Desktop/Day_6_Rajesh
+cd sequential_elements
+# reading /opt/Questa_install/questasim/linux_x86_64/../modelsim.ini
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 13:55:37 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	gray_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 13:55:37 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt gray_counter
+# vsim -novopt gray_counter 
+# Start time: 13:55:48 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.gray_counter
+# Loading work.gray_counter
+add wave *
+force -freeze sim:/gray_counter/clk 1 0, 0 {50 ns} -r 100
+force rst 0
+run
+force rst 1 
+run
+run
+run
+quit -sim
+# End time: 13:56:29 on Jun 24,2016, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:06:31 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	gray_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:06:31 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim ring_counter_tb
+# vsim ring_counter_tb 
+# Start time: 14:06:39 on Jun 24,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.ring_counter_tb(fast)
+quit -sim
+# End time: 14:06:45 on Jun 24,2016, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+vsim -novopt ring_counter_tb
+# vsim -novopt ring_counter_tb 
+# Start time: 14:06:54 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter
+# Loading work.ring_counter
+add wave *
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 1   q = 0xxx
+#                   15 rst = 1   q = 00xx
+#                   25 rst = 1   q = 000x
+#                   35 rst = 1   q = 0000
+# ** Note: $stop    : ring_counter_tb.v(16)
+#    Time: 95 ns  Iteration: 0  Instance: /ring_counter_tb
+# Break in Module ring_counter_tb at ring_counter_tb.v line 16
+quit -sim
+# End time: 14:08:41 on Jun 24,2016, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:08:43 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	gray_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:08:44 on Jun 24,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim ring_counter_tb
+# vsim ring_counter_tb 
+# Start time: 14:08:47 on Jun 24,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ring_counter_tb(fast)
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 1   q = 0xxx
+#                   15 rst = 1   q = 00xx
+#                   25 rst = 1   q = 000x
+#                   35 rst = 1   q = 0000
+!vl
+# vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:12:38 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	gray_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:12:38 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+!vsim
+# vsim ring_counter_tb
+# End time: 14:12:41 on Jun 24,2016, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 0
+# vsim ring_counter_tb 
+# Start time: 14:12:41 on Jun 24,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ring_counter_tb(fast)
+!a
+# add wave *
+# (vish-4014) No objects found matching '*'.
+vsim work.ring_counter_tb -novopt
+# End time: 14:13:10 on Jun 24,2016, Elapsed time: 0:00:29
+# Errors: 1, Warnings: 0
+# vsim work.ring_counter_tb -novopt 
+# Start time: 14:13:10 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter
+# Loading work.ring_counter
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 0   q = 1000
+#                   10 rst = 1   q = 1000
+#                   15 rst = 1   q = 0100
+#                   25 rst = 1   q = 0010
+#                   35 rst = 1   q = 0001
+#                   45 rst = 1   q = 1000
+#                   55 rst = 1   q = 0100
+#                   65 rst = 1   q = 0010
+#                   75 rst = 1   q = 0001
+#                   85 rst = 1   q = 1000
+#                   95 rst = 1   q = 0100
+quit -vsiom
+# unknown switch: -vsiom
+quit -sim
+# End time: 14:20:13 on Jun 24,2016, Elapsed time: 0:07:03
+# Errors: 1, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:20:15 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v johnson_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module johnson_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	johnson_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:20:15 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim ring_counter_tb
+# vsim ring_counter_tb 
+# Start time: 14:20:20 on Jun 24,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ring_counter_tb(fast)
+quit -sim
+# End time: 14:20:26 on Jun 24,2016, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+vsim -novopt ring_counter_tb
+# vsim -novopt ring_counter_tb 
+# Start time: 14:20:32 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.gray_counter
+# Loading work.gray_counter
+add wave *
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 0   q = 0000
+#                   10 rst = 1   q = 0000
+#                   25 rst = 1   q = 0001
+#                   35 rst = 1   q = 0010
+#                   45 rst = 1   q = 0011
+#                   55 rst = 1   q = 0100
+#                   65 rst = 1   q = 0101
+#                   75 rst = 1   q = 0110
+#                   85 rst = 1   q = 0111
+#                   95 rst = 1   q = 1001
+quit -sim
+# End time: 14:21:37 on Jun 24,2016, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:23:28 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v johnson_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module johnson_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	johnson_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:23:28 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt gray_counter
+# vsim -novopt gray_counter 
+# Start time: 14:23:35 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.gray_counter
+# Loading work.gray_counter
+add wave *
+run
+quit -sim
+# End time: 14:23:51 on Jun 24,2016, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+vsim ring_counter_tb
+# vsim ring_counter_tb 
+# Start time: 14:23:56 on Jun 24,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ring_counter_tb(fast)
+quit -sim
+# End time: 14:24:01 on Jun 24,2016, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+vsim -novopt ring_counter_tb
+# vsim -novopt ring_counter_tb 
+# Start time: 14:24:14 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Loading work.gray_counter
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 0   q = 0000
+#                   10 rst = 1   q = 0000
+#                   25 rst = 1   q = 0001
+#                   35 rst = 1   q = 0011
+#                   45 rst = 1   q = 0010
+#                   55 rst = 1   q = 0110
+#                   65 rst = 1   q = 0111
+#                   75 rst = 1   q = 0101
+#                   85 rst = 1   q = 0100
+#                   95 rst = 1   q = 1100
+quit -sim
+# End time: 14:26:03 on Jun 24,2016, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:26:05 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v johnson_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module johnson_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# -- Compiling module ring_counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	dff_tb
+# 	ff_count_tb
+# 	johnson_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter
+# 	ring_counter_tb
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:26:05 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt ring_counter_tb
+# vsim -novopt ring_counter_tb 
+# Start time: 14:26:11 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.ring_counter_tb
+# Loading work.ring_counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.gray_counter
+# Loading work.gray_counter
+add wave *
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 0   q = 0000
+#                   10 rst = 1   q = 0000
+#                   15 rst = 1   q = xxxx
+#                   25 rst = 1   q = 0000
+#                   35 rst = 1   q = 0001
+#                   45 rst = 1   q = 0011
+#                   55 rst = 1   q = 0010
+#                   65 rst = 1   q = 0110
+#                   75 rst = 1   q = 0111
+#                   85 rst = 1   q = 0101
+#                   95 rst = 1   q = 0100
+quit -sim
+# End time: 14:26:53 on Jun 24,2016, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:34:38 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v counter_tb.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v johnson_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module counter_tb
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module johnson_counter
+# ** Error: johnson_counter.v(10): (vlog-2730) Undefined variable: 'n'.
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# ** Warning: ring_counter_tb.v(1): (vlog-2275) 'counter_tb' already exists and will be overwritten.
+# -- Compiling module counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# End time: 14:34:38 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# /opt/Questa_install/questasim/linux_x86_64/vlog failed.
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:34:57 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v counter_tb.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v johnson_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module counter_tb
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module johnson_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# ** Warning: ring_counter_tb.v(1): (vlog-2275) 'counter_tb' already exists and will be overwritten.
+# -- Compiling module counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	counter_tb
+# 	dff_tb
+# 	ff_count_tb
+# 	johnson_counter
+# 	latch
+# 	nbit_counter
+# 	ring_counter
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:34:57 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -novopt counter_tb
+# vsim -novopt counter_tb 
+# Start time: 14:36:00 on Jun 24,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.counter_tb
+# Loading work.counter_tb
+# Refreshing /home/student/Desktop/Day_6_Rajesh/sequential_elements/work.gray_counter
+# Loading work.gray_counter
+add wave *
+run
+#                    0 rst = 0   q = xxxx
+#                    5 rst = 0   q = 0000
+#                   10 rst = 1   q = 0000
+#                   15 rst = 1   q = xxxx
+#                   25 rst = 1   q = 0000
+#                   35 rst = 1   q = 0001
+#                   45 rst = 1   q = 0011
+#                   55 rst = 1   q = 0010
+#                   65 rst = 1   q = 0110
+#                   75 rst = 1   q = 0111
+#                   85 rst = 1   q = 0101
+#                   95 rst = 1   q = 0100
+quit -sim
+# End time: 14:36:20 on Jun 24,2016, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+vlog *.v
+# QuestaSim-64 vlog 10.5a Compiler 2016.04 Apr  4 2016
+# Start time: 14:37:03 on Jun 24,2016
+# vlog -reportprogress 300 async_dff.v counter_dff.v counter_tb.v d_ff.v d_latch.v dff_tb.v ff_count.v ff_count_tb.v gated_sr_latch.v gray_counter.v johnson_counter.v latch.v nbit_counter.v ring_counter.v ring_counter_tb.v rising_dff.v sr_latch.v struct_counter.v struct_counter_tb.v sync_dff.v 
+# -- Compiling module async_dff
+# -- Compiling module counter_dff
+# -- Compiling module counter_tb
+# -- Compiling module d_ff
+# -- Compiling module d_latch
+# -- Compiling module dff_tb
+# -- Compiling module ff_count
+# -- Compiling module ff_count_tb
+# -- Compiling module gated_sr_latch
+# -- Compiling module gray_counter
+# -- Compiling module johnson_counter
+# -- Compiling module latch
+# -- Compiling module nbit_counter
+# -- Compiling module ring_counter
+# ** Warning: ring_counter_tb.v(1): (vlog-2275) 'counter_tb' already exists and will be overwritten.
+# -- Compiling module counter_tb
+# -- Compiling module dff
+# -- Compiling module sr_latch
+# -- Compiling module struct_counter
+# -- Compiling module struct_counter_tb
+# -- Compiling module sync_dff
+# 
+# Top level modules:
+# 	counter_dff
+# 	counter_tb
+# 	dff_tb
+# 	ff_count_tb
+# 	latch
+# 	nbit_counter
+# 	ring_counter
+# 	dff
+# 	struct_counter_tb
+# 	sync_dff
+# End time: 14:37:03 on Jun 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
